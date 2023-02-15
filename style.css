@@ -33,9 +33,13 @@ body {
     text-decoration: none;
   }
   
-  main {
+ main {
+    background-image: url(Portfolio_site_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 1em;
-  }
+}
   
   section {
     margin-bottom: 1em;
