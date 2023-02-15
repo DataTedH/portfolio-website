@@ -33,14 +33,18 @@ body {
     text-decoration: none;
   }
   
- main {
+  main {
     background-image: url(portfolio_site_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 1em;
-}
-  
+  }
+
+  main h2, main p {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  } 
   section {
     margin-bottom: 1em;
   }
