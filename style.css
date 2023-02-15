@@ -42,8 +42,8 @@ body {
   }
 
   main h2, main p {
-    color: #FFFFE0;
-    text-shadow: 1px 1px #000;
+    color: #000;
+    text-shadow: 1px 1px #fff;
   } 
   section {
     margin-bottom: 1em;
