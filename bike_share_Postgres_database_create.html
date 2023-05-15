@@ -14727,19 +14727,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Write the dataframes to PostgreSQL database</span>
-<span class="n">insert_data_to_db</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="s1">&#39;trips&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;ride_id&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;rideable_type&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;started_at&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;ended_at&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;start_station_id&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;end_station_id&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;member_casual&#39;</span><span class="p">,</span>
-                                    <span class="s1">&#39;ride_time&#39;</span><span class="p">])</span>
+<span class="n">insert_data_to_db</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="s1">&#39;trips&#39;</span><span class="p">)</span>
 
-<span class="n">insert_data_to_db</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">stations</span><span class="p">,</span> <span class="s1">&#39;stations&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;station_id&#39;</span><span class="p">,</span>
-                                             <span class="s1">&#39;station_name&#39;</span><span class="p">,</span>
-                                             <span class="s1">&#39;latitude&#39;</span><span class="p">,</span>
-                                             <span class="s1">&#39;longitude&#39;</span><span class="p">])</span>
+<span class="n">insert_data_to_db</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">stations</span><span class="p">,</span> <span class="s1">&#39;stations&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
